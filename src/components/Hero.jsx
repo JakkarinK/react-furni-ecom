@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Sofa from "../assets/img/sofa.png";
-const Hero = ({children}) => {
+const Hero = ({ children }) => {
   return (
     <div className="hero">
       <div className="container">
@@ -26,8 +26,9 @@ const Hero = ({children}) => {
                 Explore
               </Link>
             </div>
-            <div className="col-lg-7  align-self-center">
-              <img className="sofa" src={Sofa} alt="" />
+            <div className="col-lg-7  align-self-center position-relative">
+              <img className="sofa z-1" src={Sofa} alt="" />
+              <div className="bg-img"></div>
             </div>
           </div>
         </div>
