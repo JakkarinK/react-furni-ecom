@@ -14,13 +14,13 @@ const Hero = ({ children }) => {
                 velit. Aliquam vulputate velit imperdiet dolor tempor tristique.
               </p>
               <Link
-                class="btn mx-2 px-5 py-3 bg-warning border border-2 border-warning rounded-pill"
+                className="btn mx-2 px-5 py-3 bg-warning border border-2 border-warning rounded-pill"
                 to="../react-furni-ecom/"
               >
                 Shop Now
               </Link>
               <Link
-                class="explore mx-2 px-5 py-3 btn bg-transparent text-white border border-white border-2 rounded-pill border-opacity-50"
+                className="explore mx-2 px-5 py-3 btn bg-transparent text-white border border-white border-2 rounded-pill border-opacity-50"
                 to="../react-furni-ecom/"
               >
                 Explore

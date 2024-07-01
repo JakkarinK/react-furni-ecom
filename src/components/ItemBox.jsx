@@ -6,7 +6,7 @@ const ItemBox = ({ img, name, price }) => {
   return (
     <>
       <div className="item-box">
-        <Link to={"/"} className="text-decoration-none text-black">
+        <Link to={"#"} className="text-decoration-none text-black">
           <div className="item-img pt-3">
             <img src={img} alt="" />
           </div>

@@ -87,11 +87,11 @@ const Navbar = () => {
           </ul>
           <div className="d-flex">
             <Link className="nav-link text-white" to="../react-furni-ecom/">
-              <i class="fa-solid fa-user fs-4 p-2"></i>
+              <i className="fa-solid fa-user fs-4 p-2"></i>
             </Link>
 
             <Link className="nav-link text-white" to="../react-furni-ecom/cart">
-              <i class="fa-solid fa-cart-shopping fs-4 p-2"></i>
+              <i className="fa-solid fa-cart-shopping fs-4 p-2"></i>
             </Link>
           </div>
         </div>

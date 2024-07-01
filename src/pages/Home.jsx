@@ -6,7 +6,12 @@ import C1 from "../assets/img/chair.png";
 import C2 from "../assets/img/chair-2.png";
 import C3 from "../assets/img/chair-3.png";
 
+import G1 from "../assets/img/homepage/img-grid-1.jpg";
+import G2 from "../assets/img/homepage/img-grid-2.jpg";
+import G3 from "../assets/img/homepage/img-grid-3.jpg";
+
 import CoverChoosUs from "../assets/img/cover1.jpg";
+import Footer from "../components/Footer";
 
 const Home = () => {
   return (
@@ -33,7 +38,7 @@ const Home = () => {
               </div>
               <div className="col-lg-9 py-3">
                 <div className="grid">
-                  <div className="row">
+                  <div className="row py-5">
                     <div className="col-sm-4 col-12 ">
                       <ItemBox img={C1} name={"Nordic Chair"} price={"50.00"} />
                     </div>
@@ -75,7 +80,7 @@ const Home = () => {
                 <div className="grid">
                   <div className="row">
                     <div className="col-12 col-md-6 mb-3">
-                      <i class="fa-solid fa-truck fs-3"></i>
+                      <i className="fa-solid fa-truck fs-3"></i>
                       <h6>Fast & Free Shipping</h6>
                       <p className="text-muted">
                         Donec vitae odio quis nisl dapibus malesuada. Nullam ac
@@ -83,7 +88,7 @@ const Home = () => {
                       </p>
                     </div>
                     <div className="col-12 col-md-6 mb-3">
-                      <i class="fa-solid fa-box fs-3"></i>
+                      <i className="fa-solid fa-box fs-3"></i>
                       <h6>Easy to Shop</h6>
                       <p className="text-muted">
                         Donec vitae odio quis nisl dapibus malesuada. Nullam ac
@@ -91,7 +96,7 @@ const Home = () => {
                       </p>
                     </div>
                     <div className="col-12 col-md-6 mb-3">
-                      <i class="fa-solid fa-life-ring fs-3"></i>
+                      <i className="fa-solid fa-life-ring fs-3"></i>
                       <h6>24/7 Support</h6>
                       <p className="text-muted">
                         Donec vitae odio quis nisl dapibus malesuada. Nullam ac
@@ -99,7 +104,7 @@ const Home = () => {
                       </p>
                     </div>
                     <div className="col-12 col-md-6 mb-3">
-                      <i class="fa-solid fa-right-left fs-3"></i>
+                      <i className="fa-solid fa-right-left fs-3"></i>
                       <h6>Hassle Free Returns</h6>
                       <p className="text-muted">
                         Donec vitae odio quis nisl dapibus malesuada. Nullam ac
@@ -121,6 +126,39 @@ const Home = () => {
           </div>
         </div>
       </div>
+
+      <div className="make-modern-design">
+        <div className="container">
+          <div className="grid">
+            <div className="row">
+              <div className="col-lg-7">
+                <div className="img-grid">
+                  <img className="g1" src={G1} alt="img-grid-1" />
+                  <img className="g2" src={G2} alt="img-grid-2" />
+                  <img className="g3" src={G3} alt="img-grid-3" />
+                </div>
+              </div>
+              <div className="detail col-lg-5 px-4">
+                <h2>We Help You Make Modern Interior Design</h2>
+                <p className="text-muted mt-4">
+                  Donec facilisis quam ut purus rutrum lobortis. Donec vitae
+                  odio quis nisl dapibus malesuada. Nullam ac aliquet velit.
+                  Aliquam vulputate velit imperdiet dolor tempor tristique.
+                  Pellentesque habitant morbi tristique senectus et netus et
+                  malesuada
+                </p>
+                <ul className="list-unstyled text-muted mt-4">
+                  <li>Donec vitae odio quis nisl dapibus malesuada</li>
+                  <li>Donec vitae odio quis nisl dapibus malesuada</li>
+                  <li>Donec vitae odio quis nisl dapibus malesuada</li>
+                  <li>Donec vitae odio quis nisl dapibus malesuada</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <Footer />
     </div>
   );
 };
